@@ -1,0 +1,50 @@
+.header {
+	font-size: 24px;
+	line-height: 1.5;
+	margin: 60px auto;
+}
+.header span {
+	display: block;
+}
+.form {
+	border: 5px solid #472cc3;
+	padding: 35px 20px;
+} 
+.form-header, .section_header {
+	font-size: 20px;
+	font-family: Tahoma, sans-serif;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+.form_btn {
+	margin: 10px auto;
+	background-color: #472cc3;
+	border-radius: 0;
+}
+.form input {
+	margin: 10px auto;
+}
+section {
+	padding: 30px;
+}
+.img {
+	width: 72px;
+	height: 72px;
+}		
+.video {
+	margin-bottom: 30px;
+}			
+.feature_btn {
+	margin: 10px auto;
+	background-color: #472cc3;
+	border-radius: 0;
+}
+.photo_img {
+	width: 215px;
+	height: 215px;
+	margin: 30px 25px;
+}
+.third_header {
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
