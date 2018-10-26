@@ -19,6 +19,14 @@ body {
 html {
   font-size: 10px;
 }
+button,
+input,
+a {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .button {
   padding: 2rem 3rem;
   border-radius: 8px;
@@ -27,6 +35,12 @@ html {
   background-color: #f7af01;
   color: #ffffff;
   border: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #de9d01;
 }
 /*Typography*/
 section {
@@ -46,6 +60,7 @@ section {
   /*Главный заголовок*/
 }
 .main-content h1 {
+  margin-top: 0;
   margin-bottom: 4rem;
   line-height: 1.45;
   font-family: 'ProximaNova_bold', sans-serif;
@@ -129,7 +144,7 @@ header {
 .phone-link {
   display: inline-block;
   font-family: 'ProximaNova_bold', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2rem;
   height: 7rem;
   line-height: 7rem;
@@ -144,4 +159,30 @@ header {
   display: table-cell;
   text-align: right;
   vertical-align: middle;
+}
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .main {
+    background-position: top right;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
 }
